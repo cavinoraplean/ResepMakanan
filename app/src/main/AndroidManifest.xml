@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aplikasiresepmakanan">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashActivity"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".Admin" />
+        <activity android:name=".MakananTradisional.MainUpdel" />
+        <activity android:name=".MakananTradisional.MainRead" />
+        <activity android:name=".MakananTradisional.MainCreate" />
+        <activity android:name=".MakananTradisional.MainMakananTradisional" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".MasakanKue.MainRead" />
+        <activity android:name=".MasakanKue.MainCreate" />
+        <activity android:name=".MasakanKue.MainMakananKue" />
+        <activity android:name=".MasakanKue.MainUpdel" />
+        <activity android:name=".MakananPadang.MainMakananPadang" />
+        <activity android:name=".MakananPadang.MainCreate" />
+        <activity android:name=".MakananPadang.MainUpdel" />
+        <activity android:name=".MakananPadang.MainRead" />
+        <activity android:name=".MakananSeafood.MainMakananSeafood" />
+        <activity android:name=".MakananSeafood.MainCreate" />
+        <activity android:name=".MakananSeafood.MainUpdel" />
+        <activity android:name=".MakananSeafood.MainRead" />
+        <activity android:name=".MasakanKue.Detail_Kue"/>
+        <activity android:name=".MasakanKue.MainReadKueUser"/>
+        <activity android:name=".MakananTradisional.MainReadTradisionalUser"/>
+        <activity android:name=".MakananTradisional.Detail_Tradisional"/>
+        <activity android:name=".MakananSeafood.MainReadSeafoodUser"/>
+        <activity android:name=".MakananSeafood.Detail_Seafood"/>
+        <activity android:name=".MakananPadang.MainReadPadangUser"/>
+        <activity android:name=".MakananPadang.Detail_Padang"/>
+    </application>
+
+</manifest>

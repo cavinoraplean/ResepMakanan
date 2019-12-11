@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="warna1">#0EE1FB</color>
+    <color name="warna2">#FFA4A4</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="button">#C4DFE6</color>
+
+    <color name="list_row_start_color">#fafbfc</color>
+    <color name="list_row_end_color">#fafbfc</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#EBEEF0</color>
+</resources>

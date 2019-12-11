@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "730038716920",
+    "firebase_url": "https://resep-makanan-f4cee.firebaseio.com",
+    "project_id": "resep-makanan-f4cee",
+    "storage_bucket": "resep-makanan-f4cee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730038716920:android:2db9941a95121e68df6e0d",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiresepmakanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730038716920-ft9dq44on7op3n4sc4mkblk3gnrsltfc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasiresepmakanan",
+            "certificate_hash": "9a0c2e8ecd31c963cdc1682e96ebeec87bac5a88"
+          }
+        },
+        {
+          "client_id": "730038716920-jtda417sbdet84h5cshi8jv3l5coan8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aplikasiresepmakanan",
+            "certificate_hash": "366cce85d247a5d773d09c8ec5a3fcff52357c69"
+          }
+        },
+        {
+          "client_id": "730038716920-divoo6opo35v95dk351rq4o44k1rb0q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoPsOKUqXmn8_koPomLxSJxILlvU6vaSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730038716920-divoo6opo35v95dk351rq4o44k1rb0q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
