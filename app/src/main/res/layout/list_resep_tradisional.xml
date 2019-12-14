@@ -25,9 +25,7 @@
             android:id="@+id/text_nama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:layout_alignLeft="@+id/rating"
-            android:layout_alignStart="@+id/rating" />
+            android:textStyle="bold" />
         <TextView
             android:textColor="@color/colorPrimary"
             android:text="Resep"
