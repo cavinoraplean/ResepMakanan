@@ -41,7 +41,7 @@ public class Admin extends AppCompatActivity {
         // set pesan dari dialog
         alertDialogBuilder
                 .setMessage("Klik Ya untuk Logout!")
-                .setIcon(R.mipmap.logo3)
+                .setIcon(R.mipmap.logoapk)
                 .setCancelable(false)
                 .setPositiveButton("Ya",new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog,int id) {
