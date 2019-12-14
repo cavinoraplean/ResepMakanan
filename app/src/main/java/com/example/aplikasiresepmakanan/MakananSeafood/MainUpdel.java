@@ -62,7 +62,7 @@ public class MainUpdel extends AppCompatActivity {
         btnDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                db.UpdateMakananSeafood(new MakananSeafood(Sid, Snama, Sresep, Sgambar));
+                db.DeleteMakananSeafood(new MakananSeafood(Sid, Snama, Sresep, Sgambar));
                 Toast.makeText(MainUpdel.this, "Data telah dihapus",
                         Toast.LENGTH_SHORT).show();
                 finish();

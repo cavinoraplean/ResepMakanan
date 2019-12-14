@@ -47,7 +47,7 @@ public class CustomListAdapter extends BaseAdapter {
         MasakanPadang m = movieItems.get(position);
         nama.setText("Nama Masakan : "+ m.get_nama());
         resep.setText("Resep : "+ m.get_resep());
-        gambar.setText("Gambar : "+ m.get_gambar());
+        gambar.setText("Cara Memasak : "+ m.get_gambar());
         return convertView;
     }
 }

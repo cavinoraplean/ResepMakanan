@@ -1,6 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MakananPadang.MainUpdel">
 
-</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/background"
+        android:layout_width="410dp"
+        android:layout_height="730dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/gabungan"
+            android:layout_width="match_parent"
+            android:layout_height="731dp"
+            android:background="@drawable/bg"
+            />
+        <androidx.cardview.widget.CardView
+            android:layout_width="320dp"
+            android:layout_height="650dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="200dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#171717"
+                android:fontFamily="casual"
+                android:text="EDIT / DELETE"/>
+            <EditText
+                android:id="@+id/updel_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama Masakan"
+                android:layout_marginBottom="130dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_gravity="center"/>
+            <EditText
+                android:id="@+id/updel_resep"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Resep"
+                android:layout_marginBottom="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:inputType="textMultiLine"
+                android:layout_gravity="center"/>
+            <EditText
+                android:id="@+id/updel_gambar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Gambar"
+                android:layout_marginTop="60dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="150dp"
+                android:text="Edit"/>
+            <Button
+                android:id="@+id/btn_hapus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="200dp"
+                android:text="Delete"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</ScrollView>

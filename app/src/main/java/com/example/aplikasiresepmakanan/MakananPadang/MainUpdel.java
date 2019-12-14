@@ -18,7 +18,7 @@ public class MainUpdel extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_updel_kue);
+        setContentView(R.layout.activity_updel_padang);
         db = new MyDatabase(this);
         Intent i = this.getIntent();
         Sid = i.getStringExtra("Iid");

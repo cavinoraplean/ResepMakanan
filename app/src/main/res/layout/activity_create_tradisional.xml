@@ -62,7 +62,7 @@
                 android:id="@+id/create_gambar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Gambar"
+                android:hint="Cara Masak"
                 android:layout_marginTop="60dp"
                 android:layout_marginHorizontal="30dp"
                 android:layout_gravity="center"/>
