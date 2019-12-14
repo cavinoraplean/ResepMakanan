@@ -31,12 +31,6 @@ public class Login extends AppCompatActivity {
     }
 
     private void login() {
-//        btnRegister.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
-//            }
-//        });
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -89,7 +83,6 @@ public class Login extends AppCompatActivity {
         edtEmail = findViewById(R.id.edt_email);
         edtPassword = findViewById(R.id.edt_password);
         btnLogin = findViewById(R.id.btn_login);
-//        btnRegister = findViewById(R.id.btn_register_login);
         auth = FirebaseAuth.getInstance();
     }
 
