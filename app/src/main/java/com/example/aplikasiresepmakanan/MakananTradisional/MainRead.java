@@ -7,6 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aplikasiresepmakanan.R;
@@ -24,6 +25,8 @@ public class MainRead extends AppCompatActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_read_tradisional);
+        ActionBar menu = getSupportActionBar();
+        menu.setDisplayShowHomeEnabled(true);
         db = new MyDatabase(this);
         adapter_off = new CustomListAdapter(this, ListMakananTradisional );
         mListView = (ListView) findViewById(R.id.list_MakananTradisional);

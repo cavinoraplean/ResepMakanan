@@ -13,12 +13,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".SplashActivity"></activity>
-        <activity android:name=".About" />
+        <activity android:name=".About"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".Admin" />
-        <activity android:name=".MakananTradisional.MainUpdel" />
-        <activity android:name=".MakananTradisional.MainRead" />
-        <activity android:name=".MakananTradisional.MainCreate" />
-        <activity android:name=".MakananTradisional.MainMakananTradisional" />
+        <activity android:name=".MakananTradisional.MainUpdel"
+            android:parentActivityName=".MakananTradisional.MainRead"></activity>
+        <activity android:name=".MakananTradisional.MainRead"
+            android:parentActivityName=".MakananTradisional.MainMakananTradisional"></activity>
+        <activity android:name=".MakananTradisional.MainCreate"
+            android:parentActivityName=".MakananTradisional.MainMakananTradisional"></activity>
+        <activity android:name=".MakananTradisional.MainMakananTradisional"
+            android:parentActivityName=".Admin"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,26 +32,48 @@
             </intent-filter>
         </activity>
         <activity android:name=".Login" />
-        <activity android:name=".MasakanKue.MainRead" />
-        <activity android:name=".MasakanKue.MainCreate" />
-        <activity android:name=".MasakanKue.MainMakananKue" />
-        <activity android:name=".MasakanKue.MainUpdel" />
-        <activity android:name=".MakananPadang.MainMakananPadang" />
-        <activity android:name=".MakananPadang.MainCreate" />
-        <activity android:name=".MakananPadang.MainUpdel" />
-        <activity android:name=".MakananPadang.MainRead" />
-        <activity android:name=".MakananSeafood.MainMakananSeafood" />
-        <activity android:name=".MakananSeafood.MainCreate" />
-        <activity android:name=".MakananSeafood.MainUpdel" />
-        <activity android:name=".MakananSeafood.MainRead" />
-        <activity android:name=".MasakanKue.Detail_Kue"/>
-        <activity android:name=".MasakanKue.MainReadKueUser"/>
-        <activity android:name=".MakananTradisional.MainReadTradisionalUser"/>
-        <activity android:name=".MakananTradisional.Detail_Tradisional"/>
-        <activity android:name=".MakananSeafood.MainReadSeafoodUser"/>
-        <activity android:name=".MakananSeafood.Detail_Seafood"/>
-        <activity android:name=".MakananPadang.MainReadPadangUser"/>
-        <activity android:name=".MakananPadang.Detail_Padang"/>
+        <activity android:name=".MasakanKue.MainRead"
+            android:parentActivityName=".MasakanKue.MainMakananKue"></activity>
+        <activity android:name=".MasakanKue.MainCreate"
+            android:parentActivityName=".MasakanKue.MainMakananKue"></activity>
+        <activity android:name=".MasakanKue.MainMakananKue"
+            android:parentActivityName=".Admin"></activity>
+        <activity android:name=".MasakanKue.MainUpdel"
+            android:parentActivityName=".MasakanKue.MainMakananKue"></activity>
+        <activity android:name=".MakananPadang.MainMakananPadang"
+            android:parentActivityName=".Admin"></activity>
+        <activity android:name=".MakananPadang.MainCreate"
+            android:parentActivityName=".MakananPadang.MainMakananPadang"></activity>
+        <activity android:name=".MakananPadang.MainUpdel"
+            android:parentActivityName=".MakananPadang.MainRead"></activity>
+        <activity android:name=".MakananPadang.MainRead"
+            android:parentActivityName=".MakananPadang.MainMakananPadang"></activity>
+        <activity android:name=".MakananSeafood.MainMakananSeafood"
+            android:parentActivityName=".Admin"></activity>
+        <activity android:name=".MakananSeafood.MainCreate"
+            android:parentActivityName=".MakananSeafood.MainMakananSeafood"></activity>
+        <activity android:name=".MakananSeafood.MainUpdel"
+            android:parentActivityName=".MakananSeafood.MainMakananSeafood"></activity>
+        <activity android:name=".MakananSeafood.MainRead"
+            android:parentActivityName=".MakananSeafood.MainMakananSeafood"></activity>
+        <activity android:name=".MasakanKue.Detail_Kue"
+            android:parentActivityName=".MasakanKue.MainReadKueUser"></activity>
+        <activity android:name=".MasakanKue.MainReadKueUser"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".MakananTradisional.MainReadTradisionalUser"
+            android:parentActivityName=".MainActivity">
+
+        </activity>
+        <activity android:name=".MakananTradisional.Detail_Tradisional"
+            android:parentActivityName=".MakananTradisional.MainReadTradisionalUser"></activity>
+        <activity android:name=".MakananSeafood.MainReadSeafoodUser"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".MakananSeafood.Detail_Seafood"
+            android:parentActivityName=".MakananSeafood.MainReadSeafoodUser"></activity>
+        <activity android:name=".MakananPadang.MainReadPadangUser"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".MakananPadang.Detail_Padang"
+            android:parentActivityName=".MakananPadang.MainReadPadangUser"></activity>
     </application>
 
 </manifest>

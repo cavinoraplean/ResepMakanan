@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aplikasiresepmakanan.R;
@@ -14,6 +15,8 @@ public class MainMakananTradisional extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_crud_tradisional);
+        ActionBar menu = getSupportActionBar();
+        menu.setDisplayShowHomeEnabled(true);
     }
 
     public void btn_create(View view){

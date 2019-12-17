@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
@@ -28,6 +29,8 @@ public class MainCreate extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_tradisional);
+        ActionBar menu = getSupportActionBar();
+        menu.setDisplayShowHomeEnabled(true);
         db = new MyDatabase(this);
         Enama = (EditText) findViewById(R.id.create_nama);
         Eresep = (EditText) findViewById(R.id.create_resep);

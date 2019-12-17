@@ -7,6 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.aplikasiresepmakanan.MakananTradisional.MakananTradisional;
@@ -24,6 +25,8 @@ public class MainReadSeafoodUser extends AppCompatActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        ActionBar menu = getSupportActionBar();
+        menu.setDisplayShowHomeEnabled(true);
         setContentView(R.layout.activity_read_seafood_user);
         db = new MyDatabase(this);
         adapter_off = new CustomListAdapter(this, ListMakananSeafood);
